@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Reveal from "./Reveal";
 
 export default function FinalCTA() {
@@ -28,8 +29,8 @@ export default function FinalCTA() {
                 </h2>
               </div>
 
-              <a
-                href="mailto:hello@starfii.com"
+              <Link
+                href="/contact"
                 className="group inline-flex shrink-0 items-center gap-4 self-start rounded-full bg-signal-gradient px-7 py-4 font-body text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_50px_-15px_rgba(108,76,241,0.8)] lg:self-center"
               >
                 Contact Us
@@ -49,7 +50,7 @@ export default function FinalCTA() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </Reveal>
